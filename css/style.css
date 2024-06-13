@@ -6,6 +6,10 @@
 @tailwind utilities;
 
 
+
+*{
+    @apply p-0 m-0 box-border;
+}
 .class1{
     @apply bg-fontColor-dark-1
 }
@@ -19,4 +23,49 @@
     transform: translateY(0);
     transition: transform 0.3s ease-in-out;
   }
+
   
+.container-1{
+    @apply px-14 py-10 box-border
+}
+
+.container-2{
+    @apply p-5 m-5 box-border
+}
+
+
+.home-grid-lg{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+    grid-template-areas: 
+    'home-title home-image'
+    'home-info home-image'
+    'home-btn home-image'
+    ;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'home-title'
+    'home-image'
+    'home-info'
+    'home-btn'
+    ;
+    
+}
+.home-grid-title{
+    grid-area: home-title;
+}
+
+.home-grid-image{
+    grid-area: home-image;
+}
+.home-grid-btn{
+    grid-area: home-btn;
+}
+
+.home-grid-info{
+    grid-area: home-info;
+}

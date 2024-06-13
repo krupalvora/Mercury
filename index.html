@@ -13,78 +13,148 @@
 </head>
 
 <body>
-    <header>
+    <header class=" fixed top-0  w-[100vw] bg-white  p-2 box-border ">
 
-        <nav>
+        <nav id="nav-mobile" class=">
             <div class="relative">
 
-            <div class="lg:hidden flex p-2 m-2 max-h-16">
+                <div class="lg:hidden flex p-2 m-2 max-h-16">
 
-                <button id="open-hamburger" class="">
-                    <i class="fa-solid fa-bars  text-fontColor-dark-1 text-2xl"></i>
-                </button>
-                <div class="flex-[2] flex justify-center items-center overflow-hidden">
-                    <img class="max-h-full h-24 transform scale-150"
-                        src="./assets/image.png" alt="Mercury Electrix">
+                    <button id="open-hamburger" class="">
+                        <i class="fa-solid fa-bars  text-fontColor-dark-1 text-2xl"></i>
+                    </button>
+                    <a class="flex-[2] flex justify-center items-center overflow-hidden" href="./index.html">
+                        <img class="max-h-full h-12 transform scale-125" src="./assets/image.png"
+                            alt="Mercury Electrix">
+                    </a>
                 </div>
+
             </div>
-            <div id="responsive-navItems-list" class="hidden absolute left-0 top-0  h-[100vh] w-full bg-fontColor-light-1 ">
-                <button id="close-hamburger" class="p-5 m-5">
-                    <i class="fa-solid fa-close  text-fontColor-dark-1 text-2xl"></i>
-                </button>
-                <div class="flex justify-center items-center p-20 m-20">
+        </nav>
 
-                    <ul
-                        class=" flex-[2] justify-center gap-16 flex flex-col items-center text-xl font-semibold text-fontColor-primary-1">
-                        <li class="flex flex-col gap-1 h-12"><a href="about.html">About Us</a>
-                            <div  class="hidden nav-active-about self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
-                        </li>
-                        <li class="flex flex-col gap-1 h-12"><a href="products.html">Product</a>
-                            <div  class="hidden nav-active-products self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
-                        </li>
-                    <li class="flex flex-col gap-1 h-12"><a href="contact.html">Contact Us</a>
-                            <div  class="hidden nav-active-contact self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+
+        <nav class="hidden lg:flex p-0 m-5 justify-between items-center  h-full max-h-24 ">
+            <a class="flex-[2] flex justify-start items-center overflow-hidden m-2 px-14" href="./index.html">
+                <img class="h-full max-h-24 object-contain" src="./assets/image.png" alt="Mercury Electrix">
+            </a>
+            <ul class="flex-[2] justify-center gap-16 flex items-center text-lg font-semibold text-fontColor-primary-1">
+                <li class="flex flex-col gap-1 h-12"><a href="about.html">About Us</a>
+                    <div class="hidden nav-active-about self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                </li>
+                <li class="flex flex-col gap-1 h-12"><a href="products.html">Product</a>
+                    <div class="hidden nav-active-products self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                </li>
+                <li class="flex flex-col gap-1 h-12"><a href="contact.html">Contact Us</a>
+                    <div class="hidden nav-active-contact self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="responsive-navItems-list" class="fixed hidden  left-0 top-0  h-[100vh] w-full bg-fontColor-light-1 ">
+        <button id="close-hamburger" class="p-5 m-5">
+            <i class="fa-solid fa-close  text-fontColor-dark-1 text-2xl"></i>
+        </button>
+        <div class="flex justify-center items-center p-20 m-20">
+
+            <ul
+                class=" flex-[2] justify-center gap-16 flex flex-col items-center text-xl font-semibold text-fontColor-primary-1">
+                <li class="flex flex-col gap-1 h-12"><a href="about.html">About Us</a>
+                    <div class="hidden nav-active-about self-center w-1/2 h-0.5 bg-fontColor-primary-1">
+                    </div>
+                </li>
+                <li class="flex flex-col gap-1 h-12"><a href="products.html">Product</a>
+                    <div class="hidden nav-active-products self-center w-1/2 h-0.5 bg-fontColor-primary-1">
+                    </div>
+                </li>
+                <li class="flex flex-col gap-1 h-12"><a href="contact.html">Contact Us</a>
+                    <div class="hidden nav-active-contact self-center w-1/2 h-0.5 bg-fontColor-primary-1">
+                    </div>
+                </li>
+            </ul>
         </div>
-    </nav>
-
-
-    <nav class="hidden lg:flex p-5 m-5 justify-between items-center  max-h-16">
-        <div class="flex-[2] flex justify-start items-center overflow-hidden">
-            <img class="h-full max-h-24 object-contain" src="./assets/image.png"
-                alt="Mercury Electrix">
-        </div>
-        <ul class="flex-[2] justify-center gap-16 flex items-center text-lg font-semibold text-fontColor-primary-1">
-            <li class="flex flex-col gap-1 h-12"><a href="about.html">About Us</a>
-                <div  class="hidden nav-active-about self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
-            </li>
-            <li class="flex flex-col gap-1 h-12"><a href="products.html">Product</a>
-                <div  class="hidden nav-active-products self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
-            </li>
-        <li class="flex flex-col gap-1 h-12"><a href="contact.html">Contact Us</a>
-                <div  class="hidden nav-active-contact self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
-            </li>
-        </ul>
-    </nav>
-</header>
-
-<section class="home-section">
-    <div cclass="left-home">
-        <div class="home-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, minima.</div>
-        <div class="home-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo eaque veritatis, quia molestias at eos cupiditate nulla neque distinctio aliquam quas cumque id ullam sint aut quisquam inventore itaque. Optio quaerat velit mollitia ipsum illo? Deleniti ratione reiciendis tempore, dolore iusto vel commodi id aliquam quas temporibus nisi quo soluta!zz</div>
-        <button><a href="/products.html">Explore our products</a></button>
     </div>
-    <div></div>
 
-</section>
-<a href="https://api.whatsapp.com/send?phone=8104409285" target="_blank" rel="noopener noreferrer">
-    <img src="/assets/whatsapp.png" alt="WhatsApp" class="h-8">
-</a>
+
+
+
+    <section class="mt-28 container-1 ">
+        <div class="home-grid lg:home-grid-lg ">
+
+                <h1 class="home-grid-title font-bold text-4xl text-red-600 leading-relaxed mb-4  text-center">Your One-Stop Shop for All Electric Needs</h1>
+                <div class="home-grid-image p-2  flex items-center justify-center ">
+                    <img class="" src="./assets/home-hero.svg" alt="Mercury Electrix">
+                </div>
+                <div class="home-grid-info p-2 m-2">
+                    <p class="font-medium">
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum amet a deleniti aut sit nam eos perferendis voluptatibus commodi provident ut, nobis maxime nisi placeat fugiat adipisci sed aperiam repellendus ratione dicta. Ipsam cum dicta, nulla obcaecati excepturi libero, id expedita aspernatur in sapiente vel quo maxime placeat eveniet laboriosam nihil aperiam iste aliquam doloribus incidunt? Fuga nemo eaque nulla quibusdam odit, impedit tempore quam nobis consectetur atque dolorem aspernatur quas id repellendus eveniet quasi facere ad dicta odio fugit. Itaque doloremque dolorem asperiores veritatis beatae quo necessitatibus, a consequatur atque, dolores nobis tempora veniam. Quisquam animi architecto voluptatem!
+                        </p>
+                
+                </div>
+                <button class="home-grid-btn p-4 rounded-md bg-fontColor-primary-1 text-fontColor-light-1 m-2 hover:bg-fontColor-light-1  hover:shadow-sm hover:border-2 hover:border-fontColor-dark-1 hover:text-fontColor-dark-1"><a href="/products.html">Explore our products</a></button>
+
+
+        </div>
+    </section>
+
+
+
+
+    <!-- <section class="lg:block home-section lg:mt-28 container-1 ">
+        <div class="home-hero flex flex-col lg:flex-row">
+
+            <div class="left-home flex  flex-col flex-1 py-5 my-5  lg:container-2">
+                <h1 class="home-title font-bold  text-3xl lg:text-4xl text-red-600  leading-[2rem] lg:leading-[4rem]  py-2 my-2  lg:p-2 lg:m-2">Your One-Stop Shop for All Electric Needs</h1>
+                <div class="home-desc py-2 my-2">
+                    <p>
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum amet a deleniti aut sit nam eos perferendis voluptatibus commodi provident ut, nobis maxime nisi placeat fugiat adipisci sed aperiam repellendus ratione dicta. Ipsam cum dicta, nulla obcaecati excepturi libero, id expedita aspernatur in sapiente vel quo maxime placeat eveniet laboriosam nihil aperiam iste aliquam doloribus incidunt? Fuga nemo eaque nulla quibusdam odit, impedit tempore quam nobis consectetur atque dolorem aspernatur quas id repellendus eveniet quasi facere ad dicta odio fugit. Itaque doloremque dolorem asperiores veritatis beatae quo necessitatibus, a consequatur atque, dolores nobis tempora veniam. Quisquam animi architecto voluptatem!
+                        </p>
+                
+                </div>
+                <button class="self-start p-2 m-2 bg-fontColor-primary-1 text-white rounded-md"><a href="/products.html">Explore our products</a></button>
+            </div>
+            <div class="right-home flex-1  container-2">
+                <img src="./assets/home-hero.svg" alt="Mercury Electrix">
+            </div>
+
+        </div>
+    </section> -->
+
+
+
+
+
+
+    <!-- <section class="lg:hidden home-section  pt-8 mt-8 px-2 mx-2">
+        <div class="home-hero flex flex-col lg:flex-row">
+            
+            <div class="left-home flex  flex-row  pt-5 m-5  ">
+                <h1 class="flex-[1] home-title font-bold  text-3xl lg:text-4xl text-red-600  leading-[2rem]   py-2 my-2  lg:p-2 lg:m-2">Your One-Stop Shop for All Electric Needs</h1>
+                <div class="flex-[1] justify-center items-center flex">
+                    <img   src="./assets/home-hero.svg" alt="Mercury Electrix">
+
+                </div>
+
+            </div>
+            <div class="right-home flex-1  ">
+                <div class="home-desc py-2 my-2">
+                    <p>
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum amet a deleniti aut sit nam eos perferendis voluptatibus commodi provident ut, nobis maxime nisi placeat fugiat adipisci sed aperiam repellendus ratione dicta. Ipsam cum dicta, nulla obcaecati excepturi libero, id expedita aspernatur in sapiente vel quo maxime placeat eveniet laboriosam nihil aperiam iste aliquam doloribus incidunt? Fuga nemo eaque nulla quibusdam odit, impedit tempore quam nobis consectetur atque dolorem aspernatur quas id repellendus eveniet quasi facere ad dicta odio fugit. Itaque doloremque dolorem asperiores veritatis beatae quo necessitatibus, a consequatur atque, dolores nobis tempora veniam. Quisquam animi architecto voluptatem!
+                        </p>
+                
+                </div>
+                <button class="self-start p-2 m-2 bg-fontColor-primary-1 text-white rounded-md"><a href="/products.html">Explore our products</a></button>
+            </div>
+
+        </div>
+    </section> -->
+    <!-- <a href="https://api.whatsapp.com/send?phone=918104409285" target="_blank" rel="noopener noreferrer">
+        <img src="/assets/whatsapp.png" alt="WhatsApp" class="h-8">
+    </a> -->
 </body>
 <script src="./js/nav.js" type="module"></script>
 <script src="./js/index.js" type="module"></script>
 
-</html> 
+</html>

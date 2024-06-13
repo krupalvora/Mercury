@@ -12,6 +12,67 @@
 </head>
 
 <body>
+    <header class=" fixed top-0  w-[100vw] bg-white  p-2 box-border ">
+
+        <nav id="nav-mobile" class=">
+            <div class="relative">
+
+                <div class="lg:hidden flex p-2 m-2 max-h-16">
+
+                    <button id="open-hamburger" class="">
+                        <i class="fa-solid fa-bars  text-fontColor-dark-1 text-2xl"></i>
+                    </button>
+                    <a class="flex-[2] flex justify-center items-center overflow-hidden" href="./index.html">
+                        <img class="max-h-full h-12 transform scale-125" src="./assets/image.png"
+                            alt="Mercury Electrix">
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+
+
+        <nav class="hidden lg:flex p-0 m-5 justify-between items-center  h-full max-h-24 ">
+            <a class="flex-[2] flex justify-start items-center overflow-hidden m-2 px-14" href="./index.html">
+                <img class="h-full max-h-24 object-contain" src="./assets/image.png" alt="Mercury Electrix">
+            </a>
+            <ul class="flex-[2] justify-center gap-16 flex items-center text-lg font-semibold text-fontColor-primary-1">
+                <li class="flex flex-col gap-1 h-12"><a href="about.html">About Us</a>
+                    <div class="hidden nav-active-about self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                </li>
+                <li class="flex flex-col gap-1 h-12"><a href="products.html">Product</a>
+                    <div class="hidden nav-active-products self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                </li>
+                <li class="flex flex-col gap-1 h-12"><a href="contact.html">Contact Us</a>
+                    <div class="hidden nav-active-contact self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="responsive-navItems-list" class="fixed hidden  left-0 top-0  h-[100vh] w-full bg-fontColor-light-1 ">
+        <button id="close-hamburger" class="p-5 m-5">
+            <i class="fa-solid fa-close  text-fontColor-dark-1 text-2xl"></i>
+        </button>
+        <div class="flex justify-center items-center p-20 m-20">
+
+            <ul
+                class=" flex-[2] justify-center gap-16 flex flex-col items-center text-xl font-semibold text-fontColor-primary-1">
+                <li class="flex flex-col gap-1 h-12"><a href="about.html">About Us</a>
+                    <div class="hidden nav-active-about self-center w-1/2 h-0.5 bg-fontColor-primary-1">
+                    </div>
+                </li>
+                <li class="flex flex-col gap-1 h-12"><a href="products.html">Product</a>
+                    <div class="hidden nav-active-products self-center w-1/2 h-0.5 bg-fontColor-primary-1">
+                    </div>
+                </li>
+                <li class="flex flex-col gap-1 h-12"><a href="contact.html">Contact Us</a>
+                    <div class="hidden nav-active-contact self-center w-1/2 h-0.5 bg-fontColor-primary-1">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <div class="container ">
         <div class="flex flex-col  mx-20 my-10">
             <div class="text-center text-yellow-600 text-3xl font-serif font-semibold leading-relaxed">
@@ -31,5 +92,6 @@
         </div>
     </div>
 </body>
-
+<script src="./js/nav.js" type="module"></script>
+<script src="./js/index.js" type="module"></script>
 </html>

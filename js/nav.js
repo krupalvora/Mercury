@@ -22,7 +22,7 @@ function toggleClass(elements, className, action) {
     }
 }
 
-if(paths[1].split(".")[0] === "about"){
+if(paths[1].split(".")[0] === "about" || paths[1].split(".")[0] === ""){
 
     toggleClass(navItem_about, "hidden","remove")
     toggleClass(navItem_products, "hidden","add")

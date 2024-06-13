@@ -12,135 +12,142 @@
 </head>
 
 <body>
-    <header class="shadow-md fixed top-0  w-[100vw] bg-white  p-2 box-border ">
+    <header class=" fixed top-0  w-[100vw] bg-white  p-2 box-border ">
 
-        <nav id="nav-mobile">
+        <nav id="nav-mobile" class=">
             <div class="relative">
 
-            <div class="lg:hidden flex p-2 m-2 max-h-16">
+                <div class="lg:hidden flex p-2 m-2 max-h-16">
 
-                <button id="open-hamburger" class="">
-                    <i class="fa-solid fa-bars  text-fontColor-dark-1 text-2xl"></i>
-                </button>
-                <div class="flex-[2] flex justify-center items-center overflow-hidden">
-                    <img class="max-h-full h-12 transform scale-125"
-                        src="./assets/image.png" alt="Mercury Electrix">
+                    <button id="open-hamburger" class="">
+                        <i class="fa-solid fa-bars  text-fontColor-dark-1 text-2xl"></i>
+                    </button>
+                    <a class="flex-[2] flex justify-center items-center overflow-hidden" href="./index.html">
+                        <img class="max-h-full h-12 transform scale-125" src="./assets/image.png"
+                            alt="Mercury Electrix">
+                    </a>
                 </div>
+
             </div>
-            <div id="responsive-navItems-list" class="hidden absolute left-0 top-0  h-[100vh] w-full bg-fontColor-light-1 ">
-                <button id="close-hamburger" class="p-5 m-5">
-                    <i class="fa-solid fa-close  text-fontColor-dark-1 text-2xl"></i>
-                </button>
-                <div class="flex justify-center items-center p-20 m-20">
-
-                    <ul
-                        class=" flex-[2] justify-center gap-16 flex flex-col items-center text-xl font-semibold text-fontColor-primary-1">
-                        <li class="flex flex-col gap-1 h-12"><a href="about.html">About Us</a>
-                            <div  class="hidden nav-active-about self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
-                        </li>
-                        <li class="flex flex-col gap-1 h-12"><a href="products.html">Product</a>
-                            <div  class="hidden nav-active-products self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
-                        </li>
-                    <li class="flex flex-col gap-1 h-12"><a href="contact.html">Contact Us</a>
-                            <div  class="hidden nav-active-contact self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
+        </nav>
 
 
-    <nav class="hidden lg:flex p-0 m-5 justify-between items-center  max-h-16">
-        <div class="flex-[2] flex justify-start items-center overflow-hidden">
-            <img class="h-full max-h-24 object-contain" src="./assets/image.png"
-                alt="Mercury Electrix">
-        </div>
-        <ul class="flex-[2] justify-center gap-16 flex items-center text-lg font-semibold text-fontColor-primary-1">
-            <li class="flex flex-col gap-1 h-12"><a href="about.html">About Us</a>
-                <div  class="hidden nav-active-about self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
-            </li>
-            <li class="flex flex-col gap-1 h-12"><a href="products.html">Product</a>
-                <div  class="hidden nav-active-products self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
-            </li>
-        <li class="flex flex-col gap-1 h-12"><a href="contact.html">Contact Us</a>
-                <div  class="hidden nav-active-contact self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
-            </li>
-        </ul>
-    </nav>
-</header>
-<section id="products-section" class="mt-32">
+        <nav class="hidden lg:flex p-0 m-5 justify-between items-center  h-full max-h-24 ">
+            <a class="flex-[2] flex justify-start items-center overflow-hidden m-2 px-14" href="./index.html">
+                <img class="h-full max-h-24 object-contain" src="./assets/image.png" alt="Mercury Electrix">
+            </a>
+            <ul class="flex-[2] justify-center gap-16 flex items-center text-lg font-semibold text-fontColor-primary-1">
+                <li class="flex flex-col gap-1 h-12"><a href="about.html">About Us</a>
+                    <div class="hidden nav-active-about self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                </li>
+                <li class="flex flex-col gap-1 h-12"><a href="products.html">Product</a>
+                    <div class="hidden nav-active-products self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                </li>
+                <li class="flex flex-col gap-1 h-12"><a href="contact.html">Contact Us</a>
+                    <div class="hidden nav-active-contact self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="responsive-navItems-list" class="fixed hidden  left-0 top-0  h-[100vh] w-full bg-fontColor-light-1 ">
+        <button id="close-hamburger" class="p-5 m-5">
+            <i class="fa-solid fa-close  text-fontColor-dark-1 text-2xl"></i>
+        </button>
+        <div class="flex justify-center items-center p-20 m-20">
 
-
-    <div class="container mt-5">
-        <div class="flex flex-col mx-20">
-            <div class="flex flex-col space-y-2 text-center">
-                <div class=" text-yellow-600 text-3xl font-serif font-semibold leading-relaxed">Explore Our Offerings</div>
-                <div>
-                    <p>
-                        From switches to wires and everything in between, our wholesale shop offers a comprehensive
-                        range of electrical goods.</p>
-                    </p>Explore our offerings to find quality products at competitive prices and electrify your projects
-                    with confidence.
-                    </p>
-                </div>
-            </div>
-            <div class="grid grid-cols-3 gap-4 mt-10">
-                <div class="flex-1">
-                    <img src="/assets/wires.png" height="300" width="300" alt="img" />
-                </div>
-                <div class="col-span-2">
-                    <div class="font-bold text-blue-900 my-5 text-2xl leading-relaxed">Wires and Cables</div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet corporis doloremque
-                        reprehenderit fugit tempora cum, delectus consequatur quisquam sunt, sed dolorum distinctio
-                        laborum repellat! Eius similique debitis dolore error laboriosam a, adipisci non nisi quasi.
-                        Sint ea nobis optio laborum..</p>
-                </div>
-            </div>
-
-            <div class="grid grid-cols-3 gap-4 mt-10">
-                <div class="col-span-2">
-                    <div class="font-bold text-blue-900 my-5 text-2xl leading-relaxed">Conduit Pipes</div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet corporis doloremque
-                        reprehenderit fugit tempora cum, delectus consequatur quisquam sunt, sed dolorum distinctio
-                        laborum repellat! Eius similique debitis dolore error laboriosam a, adipisci non nisi quasi.
-                        Sint ea nobis optio laborum..</p>
-                </div>
-                <div class="flex-1">
-                    <img src="/assets/pipes.png" height="300" width="300" alt="img" />
-                </div>
-            </div>
-            <div class="grid grid-cols-3 gap-4 mt-10">
-                <div class="col-span-2">
-                    <div class="font-bold text-blue-900 my-5 text-2xl leading-relaxed">Conduit Pipes</div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet corporis doloremque
-                        reprehenderit fugit tempora cum, delectus consequatur quisquam sunt, sed dolorum distinctio
-                        laborum repellat! Eius similique debitis dolore error laboriosam a, adipisci non nisi quasi.
-                        Sint ea nobis optio laborum..</p>
-                </div>
-                <div class="flex-1">
-                    <img src="/assets/pipes.png" height="300" width="300" alt="img" />
-                </div>
-            </div>
-            <div class="grid grid-cols-3 gap-4 mt-10">
-                <div class="col-span-2">
-                    <div class="font-bold text-blue-900 my-5 text-2xl leading-relaxed">Conduit Pipes</div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet corporis doloremque
-                        reprehenderit fugit tempora cum, delectus consequatur quisquam sunt, sed dolorum distinctio
-                        laborum repellat! Eius similique debitis dolore error laboriosam a, adipisci non nisi quasi.
-                        Sint ea nobis optio laborum..</p>
-                </div>
-                <div class="flex-1">
-                    <img src="/assets/pipes.png" height="300" width="300" alt="img" />
-                </div>
-            </div>
-
- 
+            <ul
+                class=" flex-[2] justify-center gap-16 flex flex-col items-center text-xl font-semibold text-fontColor-primary-1">
+                <li class="flex flex-col gap-1 h-12"><a href="about.html">About Us</a>
+                    <div class="hidden nav-active-about self-center w-1/2 h-0.5 bg-fontColor-primary-1">
+                    </div>
+                </li>
+                <li class="flex flex-col gap-1 h-12"><a href="products.html">Product</a>
+                    <div class="hidden nav-active-products self-center w-1/2 h-0.5 bg-fontColor-primary-1">
+                    </div>
+                </li>
+                <li class="flex flex-col gap-1 h-12"><a href="contact.html">Contact Us</a>
+                    <div class="hidden nav-active-contact self-center w-1/2 h-0.5 bg-fontColor-primary-1">
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
-</section>
+
+    <section id="products-section" class="mt-32">
+
+
+        <div class="container mt-5">
+            <div class="flex flex-col mx-20">
+                <div class="flex flex-col space-y-2 text-center">
+                    <div class=" text-yellow-600 text-3xl font-serif font-semibold leading-relaxed">Explore Our
+                        Offerings</div>
+                    <div>
+                        <p>
+                            From switches to wires and everything in between, our wholesale shop offers a comprehensive
+                            range of electrical goods.</p>
+                        </p>Explore our offerings to find quality products at competitive prices and electrify your
+                        projects
+                        with confidence.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 gap-4 mt-10">
+                    <div class="flex-1">
+                        <img src="/assets/wires.png" height="300" width="300" alt="img" />
+                    </div>
+                    <div class="col-span-2">
+                        <div class="font-bold text-blue-900 my-5 text-2xl leading-relaxed">Wires and Cables</div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet corporis doloremque
+                            reprehenderit fugit tempora cum, delectus consequatur quisquam sunt, sed dolorum distinctio
+                            laborum repellat! Eius similique debitis dolore error laboriosam a, adipisci non nisi quasi.
+                            Sint ea nobis optio laborum..</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-3 gap-4 mt-10">
+                    <div class="col-span-2">
+                        <div class="font-bold text-blue-900 my-5 text-2xl leading-relaxed">Conduit Pipes</div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet corporis doloremque
+                            reprehenderit fugit tempora cum, delectus consequatur quisquam sunt, sed dolorum distinctio
+                            laborum repellat! Eius similique debitis dolore error laboriosam a, adipisci non nisi quasi.
+                            Sint ea nobis optio laborum..</p>
+                    </div>
+                    <div class="flex-1">
+                        <img src="/assets/pipes.png" height="300" width="300" alt="img" />
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 gap-4 mt-10">
+                    <div class="col-span-2">
+                        <div class="font-bold text-blue-900 my-5 text-2xl leading-relaxed">Conduit Pipes</div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet corporis doloremque
+                            reprehenderit fugit tempora cum, delectus consequatur quisquam sunt, sed dolorum distinctio
+                            laborum repellat! Eius similique debitis dolore error laboriosam a, adipisci non nisi quasi.
+                            Sint ea nobis optio laborum..</p>
+                    </div>
+                    <div class="flex-1">
+                        <img src="/assets/pipes.png" height="300" width="300" alt="img" />
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 gap-4 mt-10">
+                    <div class="col-span-2">
+                        <div class="font-bold text-blue-900 my-5 text-2xl leading-relaxed">Conduit Pipes</div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet corporis doloremque
+                            reprehenderit fugit tempora cum, delectus consequatur quisquam sunt, sed dolorum distinctio
+                            laborum repellat! Eius similique debitis dolore error laboriosam a, adipisci non nisi quasi.
+                            Sint ea nobis optio laborum..</p>
+                    </div>
+                    <div class="flex-1">
+                        <img src="/assets/pipes.png" height="300" width="300" alt="img" />
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
 
 </body>
 <script src="./js/nav.js" type="module"></script>
 <script src="./js/index.js" type="module"></script>
+
 </html>
