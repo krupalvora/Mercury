@@ -62,10 +62,34 @@ const responsiveNavItmesList = document.getElementById("responsive-navItems-list
 hamburgerButtonOpen.addEventListener("click",()=>{
     responsiveNavItmesList.classList.remove("hidden")
     responsiveNavItmesList.classList.add("block")
+    responsiveNavItmesList.classList.add("z-50")
+
+
+
 
 })
 hamburgerButtonClose.addEventListener("click",()=>{
     responsiveNavItmesList.classList.remove("block")
     responsiveNavItmesList.classList.add("hidden")
+    responsiveNavItmesList.classList.remove("z-50")
+
 })
 
+let lastScrollTop = 0;
+const navbar = document.querySelector('header');
+
+window.addEventListener('scroll', function() {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+        // Scrolling down
+        navbar.classList.remove('visible-navbar');
+        navbar.classList.add('hidden-navbar');
+    } else {
+        // Scrolling up
+        navbar.classList.remove('hidden-navbar');
+        navbar.classList.add('visible-navbar');
+    }
+
+    lastScrollTop = scrollTop;
+});
