@@ -1,16 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <script src="/js/tailwind.js"></script>
-    
+    <link href="./css/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- <script src="/js/tailwind.js" type="module"></script> -->
+
     <title>Mercury Electrix</title>
 </head>
+
 <body>
+
     <nav>
-        <!-- TEST -->
+        <div class="relative">
+
+            <div class="lg:hidden flex p-2 m-2 max-h-16">
+
+                <button id="open-hamburger" class="">
+                    <i class="fa-solid fa-bars  text-fontColor-dark-1 text-2xl"></i>
+                </button>
+                <div class="flex-[2] flex justify-center items-center overflow-hidden">
+                    <img class="max-h-full h-24 transform scale-150"
+                        src="./assets/image.png" alt="Mercury Electrix">
+                </div>
+            </div>
+            <div id="responsive-navItems-list" class="hidden absolute left-0 top-0  h-[100vh] w-full bg-white ">
+                <button id="close-hamburger" class="p-5 m-5">
+                    <i class="fa-solid fa-close  text-fontColor-dark-1 text-2xl"></i>
+                </button>
+                <div class="flex justify-center items-center p-20 m-20">
+
+                    <ul
+                        class=" flex-[2] justify-center gap-16 flex flex-col items-center text-xl font-semibold text-fontColor-primary-1">
+                        <li class="flex flex-col gap-1 h-12"><a href="/about">About Us</a>
+                            <div class="self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                        </li>
+                        <li class="flex flex-col gap-1 h-12"><a href="/products">Product</a>
+                            <div class="self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                        </li>
+                        <li class="flex flex-col gap-1 h-12"><a href="/contact">Contact Us</a>
+                            <div class="self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- <nav class="hidden lg:flex  p-5 m-5 justify-between border-2 border-red-500 max-h-12 ">
+    
+        <div class="flex-[2]  flex flex-row justify-start items-center overflow-hidden">
+            <img class=" h-full "  src="../../static/assets/static/YouTube-Logo.wine.svg" alt="Mercury Electrix">
+        </div>
+        <ul class="flex-[2] justify-center gap-16 flex items-center text-2xl p-3 font-semibold text-fontColor-primary-1">
+            <li class="flex flex-col gap-1 h-12"><a href="/about">About Us</a><div class="self-center  w-1/2 h-0 border-2 border-fontColor-primary-1"></div></li>
+            <li class="flex flex-col gap-1 h-12"><a href="/products">Product</a><div class="self-center  w-1/2 h-0 border-2 border-fontColor-primary-1"></div></li>
+            <li class="flex flex-col gap-1 h-12"> <a href="/contact">Contact Us</a><div class="self-center  w-1/2 h-0 border-2 border-fontColor-primary-1"></div></li>
+        </ul>
+    </nav> -->
+
+    <nav class="hidden lg:flex p-5 m-5 justify-between items-center  max-h-16">
+        <div class="flex-[2] flex justify-start items-center overflow-hidden">
+            <img class="h-full max-h-24 object-contain" src="./assets/image.png"
+                alt="Mercury Electrix">
+        </div>
+        <ul class="flex-[2] justify-center gap-16 flex items-center text-xl font-semibold text-fontColor-primary-1">
+            <li class="flex flex-col gap-1 h-12"><a href="/about">About Us</a>
+                <div class="self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+            </li>
+            <li class="flex flex-col gap-1 h-12"><a href="/products">Product</a>
+                <div class="self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+            </li>
+            <li class="flex flex-col gap-1 h-12"><a href="/contact">Contact Us</a>
+                <div class="self-center w-1/2 h-0.5 bg-fontColor-primary-1"></div>
+            </li>
+        </ul>
     </nav>
 </body>
-</html>
+<script src="./js/nav.js" type="module"></script>
+<script src="./js/index.js" type="module"></script>
+
+</html> 
