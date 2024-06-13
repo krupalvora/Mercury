@@ -5,9 +5,9 @@ let path_str = document.location.pathname
 
 const paths = path_str.split("/")
 
-// if(paths[0] == "about"){
-//     document.getElementBy
-// }
+if(paths[0] == "about"){
+    document.getElementBy
+}
 
 
 
