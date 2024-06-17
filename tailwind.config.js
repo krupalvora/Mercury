@@ -17,7 +17,9 @@ module.exports = {
     gridTemplateColumns: {
       // Define custom grid template columns for large screens
     'home-lg': '1fr 1fr',
-    'product-lg': '1fr 1fr'
+    'product-lg': 'auto 1.5fr',
+    'product-rev-lg': 'auto 1fr'
+
     },
     gridTemplateAreas: {
       // Define custom grid template areas
@@ -40,7 +42,13 @@ module.exports = {
   'product-lg': [
     'product-image product-title',
     'product-image product-info',
-  ],  
+    
+  ], 
+  'product-rev-lg': [
+    'product-title product-image',
+    'product-info product-image',
+    
+  ],   
     },
   },
 },
@@ -82,14 +90,32 @@ plugins: [
         '.product-grid-lg': {
           'display': 'grid',
           'grid-template-areas': `
+
             "product-image product-title"
             "product-image product-info"
 
-          `,
-          'grid-template-columns': '1fr 3fr',
-          'grid-template-rows': '1fr 3fr',
 
-          'gap': '1rem',
+
+          `,
+          'grid-template-columns': 'auto 1.5fr',
+          'grid-template-rows': '2fr 3fr',
+
+          // 'gap': '1rem',
+        },
+        '.product-grid-rev-lg': {
+          'display': 'grid',
+          'grid-template-areas': `
+
+            "product-title product-image "
+            "product-info product-image "
+
+
+
+          `,
+          'grid-template-columns': '1.5fr auto',
+          'grid-template-rows': '2fr 3fr',
+
+          // 'gap': '1rem',
         },
     
     };
