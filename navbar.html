@@ -6,12 +6,13 @@
     <title>Header</title>
 </head>
 <body>
+    <!-- ------------NAV--------- -->
     <header class=" fixed top-0  w-[100vw] bg-white  p-2 box-border ">
 
         <nav id="nav-mobile" class=">
             <div class="relative">
 
-                <div class="lg:hidden flex p-2 m-2 max-h-16">
+                <div class="lg:hidden flex p-2 m-2 mr-4 max-h-16">
 
                     <button id="open-hamburger" class="">
                         <i class="fa-solid fa-bars  text-fontColor-dark-1 text-2xl"></i>
@@ -43,16 +44,16 @@
             </ul>
         </nav>
     </header>
-    <div id="responsive-navItems-list" class="fixed hidden  left-0 top-0  h-[100vh] w-full bg-fontColor-light-1 ">
-        <button id="close-hamburger" class="p-5 m-5">
-            <i class="fa-solid fa-close  text-fontColor-dark-1 text-2xl"></i>
+    <div id="responsive-navItems-list" class="fixed hidden flex-col items-start   left-0 top-0  h-[100vh] w-full bg-fontColor-light-1 ">
+        <button id="close-hamburger" class="p-4 m-4 justify-self-start">
+            <i class="fa-solid fa-close  text-fontColor-dark-1 text-2xl "></i>
         </button>
-        <div class="flex justify-center items-center p-20 m-20">
+        <div class="flex justify-center items-center p-2 m-2 self-center min-h-[60%]   ">
 
             <ul
-                class=" flex-[2] justify-center gap-16 flex flex-col items-center text-xl font-semibold text-fontColor-primary-1">
-                <li class="flex flex-col gap-1 h-12"><a href="about.html">About Us</a>
-                    <div class="hidden nav-active-about self-center w-1/2 h-0.5 bg-fontColor-primary-1">
+                class=" flex-[2]  gap-y-4 flex flex-col items-center text-xl font-semibold text-fontColor-primary-1 text-center justify-items-center ">
+                <li class="flex flex-col gap-1 h-12  min-w-[10rem] self-center"><a href="about.html">About Us</a>
+                    <div class="hidden nav-active-about self-center  w-1/2 h-0.5 bg-fontColor-primary-1">
                     </div>
                 </li>
                 <li class="flex flex-col gap-1 h-12"><a href="products.html">Product</a>
@@ -66,6 +67,7 @@
             </ul>
         </div>
     </div>
+    <!-- ------------NAV--------- -->
 
 </body>
 <script src="./js/nav.js" type="module"></script>

@@ -22,7 +22,7 @@ function toggleClass(elements, className, action) {
     }
 }
 
-if(paths[1].split(".")[0] === "about" || paths[1].split(".")[0] === ""){
+if(paths[1].split(".")[0] === "about" || paths[1].split(".")[0] === "" || paths[1].split(".")[0] === "index"){
 
     toggleClass(navItem_about, "hidden","remove")
     toggleClass(navItem_products, "hidden","add")
@@ -61,7 +61,7 @@ const responsiveNavItmesList = document.getElementById("responsive-navItems-list
 
 hamburgerButtonOpen.addEventListener("click",()=>{
     responsiveNavItmesList.classList.remove("hidden")
-    responsiveNavItmesList.classList.add("block")
+    responsiveNavItmesList.classList.add("flex")
     responsiveNavItmesList.classList.add("z-50")
 
 
@@ -69,7 +69,7 @@ hamburgerButtonOpen.addEventListener("click",()=>{
 
 })
 hamburgerButtonClose.addEventListener("click",()=>{
-    responsiveNavItmesList.classList.remove("block")
+    responsiveNavItmesList.classList.remove("flex")
     responsiveNavItmesList.classList.add("hidden")
     responsiveNavItmesList.classList.remove("z-50")
 
