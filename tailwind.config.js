@@ -7,7 +7,8 @@ module.exports = {
         'primary': '#B2867C',
         'fontColor-light-1': 'white',
         'fontColor-dark-1': 'black',
-        'fontColor-primary-1': '#0a1573'
+        'fontColor-primary-1': '#0a1573',
+        'fontColor-primary-2':'#A7873E'
 
       },
       fontFamily: {
