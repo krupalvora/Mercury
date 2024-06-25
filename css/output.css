@@ -1220,12 +1220,21 @@ video {
     margin-bottom: 1.25rem;
   }
 
+  .md\:w-1\/2{
+    width: 50%;
+  }
+
   .md\:flex-row{
     flex-direction: row;
   }
 
   .md\:flex-col{
     flex-direction: column;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .md\:text-xl{
@@ -1265,6 +1274,10 @@ video {
 
   .lg\:hidden{
     display: none;
+  }
+
+  .lg\:w-1\/2{
+    width: 50%;
   }
 
   .lg\:flex-row{
@@ -1345,12 +1358,21 @@ video {
     margin-bottom: 1.25rem;
   }
 
+  .xl\:w-1\/2{
+    width: 50%;
+  }
+
   .xl\:max-w-\[90\%\]{
     max-width: 90%;
   }
 
   .xl\:flex-row{
     flex-direction: row;
+  }
+
+  .xl\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .xl\:text-3xl{
@@ -1360,7 +1382,16 @@ video {
 }
 
 @media (min-width: 1536px){
+  .\32xl\:w-1\/2{
+    width: 50%;
+  }
+
   .\32xl\:flex-row{
     flex-direction: row;
+  }
+
+  .\32xl\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
