@@ -3,6 +3,9 @@ module.exports = {
   content: ["*/templates/*.html", "./*.html"],
   theme: {
     extend: {
+      boxShadow: {
+        'golden': '10px 10px 20px rgba(167, 135, 62, 0.5)', // Customize the values as needed
+      },
       colors: {
         'primary': '#B2867C',
         'fontColor-light-1': 'white',

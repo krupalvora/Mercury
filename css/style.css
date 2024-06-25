@@ -132,3 +132,21 @@
     font-weight: 600;
     font-style: normal;
   }
+/* styles.css */
+.shadow-golden-circle {
+    position: relative;
+    overflow: hidden;
+}
+
+.shadow-golden-circle::before {
+    content: '';
+    position: absolute;
+    bottom: -50px; /* Position the shadow outside the container from the bottom */
+    left: -50px; /* Position the shadow outside the container from the left */
+    width: 20%;
+    height: 60%;
+    background: #FFEBBC; /* Adjust color and opacity */
+    border-radius: 50%; /* Make it circular */
+    filter: blur(70px); /* Adjust blur for shadow effect */
+    z-index: -1; /* Place it behind the container */
+}
