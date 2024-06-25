@@ -150,7 +150,7 @@
     background: #FFEBBC; /* Adjust color and opacity */
     border-radius: 50%; /* Make it circular */
     filter: blur(100px); /* Adjust blur for shadow effect */
-    z-index: -1; /* Place it behind the container */
+    z-index: -200; /* Place it behind the container */
 }
 .shadow-golden-circle-right {
     position: relative;
@@ -166,7 +166,7 @@
     background: #FFEBBC; /* Adjust color and opacity */
     border-radius: 50%; /* Make it circular */
     filter: blur(80px); /* Adjust blur for shadow effect */
-    z-index: -1; /* Place it behind the container */
+    z-index: -200; /* Place it behind the container */
 }
 .shadow-golden-circle-left {
     position: relative;
@@ -183,5 +183,9 @@
     background: #FFEBBC; /* Adjust color and opacity */
     border-radius: 50%; /* Make it circular */
     filter: blur(80px); /* Adjust blur for shadow effect */
-    z-index: -1; /* Place it behind the container */
+    z-index: -200; /* Place it behind the container */
+}
+
+header{
+    z-index: 1000;
 }
