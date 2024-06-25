@@ -96,7 +96,7 @@
 
 .product-grid-rev-lg{
     display: grid;
-    grid-template-columns:1.5fr  auto;
+    grid-template-columns:1.5fr auto;
     grid-template-rows:  2fr 3fr;
     grid-template-areas: 
 
@@ -132,7 +132,9 @@
     font-weight: 600;
     font-style: normal;
   }
-/* styles.css */
+
+
+  /* styles.css */
 .shadow-golden-circle {
     position: relative;
     /* overflow: hidden; */
