@@ -26,8 +26,8 @@
 
   
 .container-1{
-    @apply  px-5 lg:px-14 py-10 box-border;
-    @apply mt-20 lg:mt-28;
+    @apply  px-5 lg:px-8 py-8 box-border;
+    @apply mt-20 lg:mt-20;
 }
 
 .container-2{

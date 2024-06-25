@@ -594,10 +594,6 @@ video {
   margin: 1rem;
 }
 
-.m-5{
-  margin: 1.25rem;
-}
-
 .mx-2{
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -624,6 +620,18 @@ video {
 
 .mr-4{
   margin-right: 1rem;
+}
+
+.mr-\[5\%\]{
+  margin-right: 5%;
+}
+
+.ml-10{
+  margin-left: 2.5rem;
+}
+
+.ml-\[5\%\]{
+  margin-left: 5%;
 }
 
 .box-border{
@@ -673,6 +681,10 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.max-h-12{
+  max-height: 3rem;
 }
 
 .max-h-16{
@@ -731,12 +743,16 @@ video {
   max-width: 5rem;
 }
 
-.max-w-\[25rem\]{
-  max-width: 25rem;
+.max-w-\[22rem\]{
+  max-width: 22rem;
 }
 
 .max-w-\[35rem\]{
   max-width: 35rem;
+}
+
+.max-w-\[28rem\]{
+  max-width: 28rem;
 }
 
 .flex-\[2\]{
@@ -775,6 +791,10 @@ video {
   justify-content: flex-start;
 }
 
+.justify-end{
+  justify-content: flex-end;
+}
+
 .justify-center{
   justify-content: center;
 }
@@ -791,8 +811,8 @@ video {
   gap: 0.25rem;
 }
 
-.gap-16{
-  gap: 4rem;
+.gap-8{
+  gap: 2rem;
 }
 
 .gap-y-4{
@@ -853,10 +873,6 @@ video {
      object-fit: contain;
 }
 
-.p-0{
-  padding: 0px;
-}
-
 .p-2{
   padding: 0.5rem;
 }
@@ -868,6 +884,16 @@ video {
 .px-14{
   padding-left: 3.5rem;
   padding-right: 3.5rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .text-center{
@@ -891,6 +917,11 @@ video {
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-xl{
@@ -1008,14 +1039,14 @@ video {
   box-sizing: border-box;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 @media (min-width: 1024px){
   .container-1{
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
@@ -1025,7 +1056,7 @@ video {
 
 @media (min-width: 1024px){
   .container-1{
-    margin-top: 7rem;
+    margin-top: 5rem;
   }
 }
 
@@ -1262,13 +1293,29 @@ header{
 }
 
 @media (min-width: 1024px){
-  .lg\:m-5{
-    margin: 1.25rem;
+  .lg\:mx-40{
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 
   .lg\:my-2{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+  }
+
+  .lg\:mx-20{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .lg\:mx-32{
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
+  .lg\:mx-24{
+    margin-left: 6rem;
+    margin-right: 6rem;
   }
 
   .lg\:ml-20{
@@ -1277,6 +1324,10 @@ header{
 
   .lg\:mr-20{
     margin-right: 5rem;
+  }
+
+  .lg\:mt-8{
+    margin-top: 2rem;
   }
 
   .lg\:flex{
@@ -1299,18 +1350,14 @@ header{
     justify-content: flex-start;
   }
 
-  .lg\:p-5{
-    padding: 1.25rem;
-  }
-
   .lg\:py-2{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
 
-  .lg\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+  .lg\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .lg\:home-grid-lg{
@@ -1354,6 +1401,15 @@ header{
 }
 
 @media (min-width: 1280px){
+  .xl\:mx-24{
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .xl\:mt-0{
+    margin-top: 0px;
+  }
+
   .xl\:w-1\/2{
     width: 50%;
   }
