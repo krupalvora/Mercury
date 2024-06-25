@@ -17,7 +17,7 @@
     <!-- ------------NAV--------- -->
     <header class=" fixed top-0  w-[100vw] bg-white  p-2 box-border ">
 
-        <nav id="nav-mobile" class=">
+        <nav id="nav-mobile" class="lg:hidden">
             <div class=" relative">
 
             <div class="lg:hidden flex p-2 m-2 mr-4 max-h-16">
@@ -52,7 +52,7 @@
         </nav>
     </header>
     <div id="responsive-navItems-list"
-        class="fixed hidden flex-col items-start   left-0 top-0  h-[100vh] w-full bg-fontColor-light-1 ">
+        class="fixed  hidden flex-col items-start   left-0 top-0  h-[100vh] w-full bg-fontColor-light-1 lg:hidden z1500">
         <button id="close-hamburger" class="p-4 m-4 justify-self-start">
             <i class="fa-solid fa-close  text-fontColor-dark-1 text-2xl "></i>
         </button>
@@ -61,15 +61,15 @@
             <ul
                 class=" flex-[2]  gap-y-4 flex flex-col items-center text-xl font-semibold text-fontColor-primary-1 text-center justify-items-center ">
                 <li class="flex flex-col gap-1 h-12  min-w-[10rem] self-center"><a href="./">Home</a>
-                    <div class="hidden nav-active-about self-center  w-1/2 h-0.5 bg-fontColor-primary-1">
+                    <div class="hidden nav-active-about self-center  w-1/4 h-0.5 bg-fontColor-primary-1">
                     </div>
                 </li>
                 <li class="flex flex-col gap-1 h-12 min-w-[10rem]"><a href="./products.html">Product</a>
-                    <div class="hidden nav-active-products self-center w-1/2 h-0.5 bg-fontColor-primary-1">
+                    <div class="hidden nav-active-products self-center  w-1/4 h-0.5 bg-fontColor-primary-1">
                     </div>
                 </li>
                 <li class="flex flex-col gap-1 h-12 min-w-[10rem]"><a href="./contact.html">Contact Us</a>
-                    <div class="hidden nav-active-contact self-center w-1/2 h-0.5 bg-fontColor-primary-1">
+                    <div class="hidden nav-active-contact self-center  w-1/4 h-0.5 bg-fontColor-primary-1">
                     </div>
                 </li>
             </ul>
@@ -77,13 +77,12 @@
     </div>
     <!-- ------------NAV--------- -->
 
-
     <section class=" container-1 ">
         <div class="home-grid lg:home-grid-lg ">
 
-            <h1 class="home-grid-title text-[#A7873E] dm-serif-display-regular text-2xl text-center mx-auto md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-4xl leading-relaxed mb-2 ">
+            <h1 class="home-grid-title text-[#A7873E] dm-serif-display-regular text-center mx-auto text-3xl sm:text-4xl  leading-relaxed mb-2 self-center justify-self-center">
                 Your One-Stop Shop For All Electrical Needs</h1>
-            <div class="home-grid-image  flex items-center justify-center ">
+            <div class="home-grid-image  flex items-center justify-center h-auto max-w-[35rem] self-center justify-self-center">
                 <img class="" src="./assets/image-1.png" alt="Mercury Electrix">
             </div>
             <div class="home-grid-info p-2 m-2">
@@ -101,7 +100,7 @@
 
             </div>
             <button
-                class="home-grid-btn  rounded-md bg-fontColor-primary-1 text-fontColor-light-1 m-2 hover:bg-fontColor-light-1 border-2 border-transparent hover:shadow-sm hover:border-2 hover:border-fontColor-dark-1 hover:text-fontColor-dark-1 transition duration-300 ease-in-out"><a
+                class="home-grid-btn h-16  rounded-md bg-fontColor-primary-1 text-fontColor-light-1 m-2 hover:bg-fontColor-light-1 border-2 border-transparent hover:shadow-sm hover:border-2 hover:border-fontColor-dark-1 hover:text-fontColor-dark-1 transition duration-300 ease-in-out"><a
                     href="./products.html">Explore our products</a></button>
 
 
