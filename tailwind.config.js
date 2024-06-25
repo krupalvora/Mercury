@@ -6,6 +6,12 @@ module.exports = {
       boxShadow: {
         'golden': '10px 10px 20px rgba(167, 135, 62, 0.5)', // Customize the values as needed
       },
+      fontSize: {
+        '64': '48px', // Add custom font size 64
+      },
+      fontWeight: {
+        'regular': '800', // Add custom font weight regular
+      },
       colors: {
         'primary': '#B2867C',
         'fontColor-light-1': 'white',

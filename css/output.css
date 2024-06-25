@@ -929,6 +929,10 @@ video {
   line-height: 2.5rem;
 }
 
+.text-64{
+  font-size: 48px;
+}
+
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -945,6 +949,10 @@ video {
 
 .font-medium{
   font-weight: 500;
+}
+
+.font-regular{
+  font-weight: 800;
 }
 
 .font-semibold{
@@ -983,11 +991,6 @@ video {
 .text-fontColor-primary-1{
   --tw-text-opacity: 1;
   color: rgb(10 21 115 / var(--tw-text-opacity));
-}
-
-.text-fontColor-primary-2{
-  --tw-text-opacity: 1;
-  color: rgb(167 135 62 / var(--tw-text-opacity));
 }
 
 .text-yellow-600{
