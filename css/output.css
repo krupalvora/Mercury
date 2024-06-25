@@ -924,11 +924,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-64{
   font-size: 48px;
 }
@@ -949,10 +944,6 @@ video {
 
 .font-medium{
   font-weight: 500;
-}
-
-.font-regular{
-  font-weight: 800;
 }
 
 .font-semibold{
