@@ -1255,6 +1255,10 @@ header{
   z-index: 1000;
 }
 
+.z1500{
+  z-index: 1500;
+}
+
 .hover\:border-2:hover{
   border-width: 2px;
 }
