@@ -748,8 +748,8 @@ video {
   max-width: 5rem;
 }
 
-.max-w-\[30rem\]{
-  max-width: 30rem;
+.max-w-\[25rem\]{
+  max-width: 25rem;
 }
 
 .flex-\[2\]{
@@ -1148,7 +1148,7 @@ video {
 
 .product-grid-rev-lg{
   display: grid;
-  grid-template-columns:1.5fr  auto;
+  grid-template-columns:1.5fr auto;
   grid-template-rows:  2fr 3fr;
   grid-template-areas: 
 
@@ -1340,9 +1340,22 @@ video {
     margin-bottom: 2.5rem;
   }
 
+  .lg\:my-2{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
   .lg\:my-5{
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
+  }
+
+  .lg\:ml-20{
+    margin-left: 5rem;
+  }
+
+  .lg\:mr-20{
+    margin-right: 5rem;
   }
 
   .lg\:flex{
@@ -1367,6 +1380,11 @@ video {
 
   .lg\:p-5{
     padding: 1.25rem;
+  }
+
+  .lg\:py-2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .lg\:text-2xl{

@@ -27,7 +27,7 @@ module.exports = {
     gridTemplateColumns: {
       // Define custom grid template columns for large screens
     'home-lg': '1fr 1fr',
-    'product-lg': 'auto 1.5fr',
+    'product-lg': '1fr auto',
     'product-rev-lg': 'auto 1fr'
 
     },
