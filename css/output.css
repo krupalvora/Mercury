@@ -614,6 +614,16 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mx-8{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.mx-10{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .mb-2{
   margin-bottom: 0.5rem;
 }
@@ -741,6 +751,10 @@ video {
 
 .max-w-\[22rem\]{
   max-width: 22rem;
+}
+
+.max-w-\[25rem\]{
+  max-width: 25rem;
 }
 
 .max-w-\[28rem\]{
@@ -873,6 +887,10 @@ video {
   padding: 1rem;
 }
 
+.p-3{
+  padding: 0.75rem;
+}
+
 .px-14{
   padding-left: 3.5rem;
   padding-right: 3.5rem;
@@ -919,6 +937,11 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold{
@@ -1107,7 +1130,7 @@ video {
 .product-grid-lg{
   display: grid;
   grid-template-columns: auto 1.5fr;
-  grid-template-rows:  2fr 3fr;
+  grid-template-rows:  2fr 4fr;
   grid-template-areas: 
 
     'product-image product-title'
@@ -1294,6 +1317,10 @@ header{
     margin-left: 5rem;
   }
 
+  .lg\:mr-12{
+    margin-right: 3rem;
+  }
+
   .lg\:mr-20{
     margin-right: 5rem;
   }
@@ -1332,6 +1359,11 @@ header{
     line-height: 1.5rem;
   }
 
+  .lg\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
   .lg\:home-grid-lg{
     display: grid;
     grid-template-areas: 
@@ -1354,7 +1386,7 @@ header{
 
           ;
     grid-template-columns: auto 1.5fr;
-    grid-template-rows: 2fr 3fr;
+    grid-template-rows: 2fr 4fr;
   }
 
   .lg\:product-grid-rev-lg{
@@ -1368,7 +1400,7 @@ header{
 
           ;
     grid-template-columns: 1.5fr auto;
-    grid-template-rows: 2fr 3fr;
+    grid-template-rows: 2fr 4fr;
   }
 }
 

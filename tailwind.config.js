@@ -108,7 +108,7 @@ plugins: [
 
           `,
           'grid-template-columns': 'auto 1.5fr',
-          'grid-template-rows': '2fr 3fr',
+          'grid-template-rows': '2fr 4fr',
 
           // 'gap': '1rem',
         },
@@ -123,7 +123,7 @@ plugins: [
 
           `,
           'grid-template-columns': '1.5fr auto',
-          'grid-template-rows': '2fr 3fr',
+          'grid-template-rows': '2fr 4fr',
 
           // 'gap': '1rem',
         },
