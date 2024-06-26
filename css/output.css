@@ -558,40 +558,6 @@ video {
   --tw-contain-style:  ;
 }
 
-.container{
-  width: 100%;
-}
-
-@media (min-width: 640px){
-  .container{
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px){
-  .container{
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px){
-  .container{
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px){
-  .container{
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px){
-  .container{
-    max-width: 1536px;
-  }
-}
-
 .fixed{
   position: fixed;
 }
@@ -633,9 +599,19 @@ video {
   margin-right: 0.5rem;
 }
 
+.mx-5{
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-1{
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .my-3{
@@ -646,31 +622,6 @@ video {
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mx-5{
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
-.mx-10{
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
-.-mx-16{
-  margin-left: -4rem;
-  margin-right: -4rem;
-}
-
-.mx-16{
-  margin-left: 4rem;
-  margin-right: 4rem;
-}
-
-.my-1{
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
 }
 
 .mb-2{
@@ -770,28 +721,12 @@ video {
   width: 25%;
 }
 
-.w-1\/5{
-  width: 20%;
-}
-
-.w-4\/5{
-  width: 80%;
-}
-
 .w-\[100vw\]{
   width: 100vw;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-1\/6{
-  width: 16.666667%;
-}
-
-.w-5\/6{
-  width: 83.333333%;
 }
 
 .min-w-\[10rem\]{
@@ -818,12 +753,12 @@ video {
   flex: 2;
 }
 
-.flex-none{
-  flex: none;
-}
-
 .flex-\[3\]{
   flex: 3;
+}
+
+.flex-none{
+  flex: none;
 }
 
 .flex-grow{
@@ -1360,32 +1295,20 @@ header{
     width: 50%;
   }
 
-  .md\:w-2\/3{
-    width: 66.666667%;
-  }
-
-  .md\:w-1\/3{
-    width: 33.333333%;
-  }
-
-  .md\:w-3\/4{
-    width: 75%;
-  }
-
   .md\:flex-row{
     flex-direction: row;
   }
 }
 
 @media (min-width: 1024px){
-  .lg\:my-2{
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-
   .lg\:mx-16{
     margin-left: 4rem;
     margin-right: 4rem;
+  }
+
+  .lg\:my-2{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .lg\:my-5{
@@ -1415,18 +1338,6 @@ header{
 
   .lg\:w-1\/2{
     width: 50%;
-  }
-
-  .lg\:w-1\/3{
-    width: 33.333333%;
-  }
-
-  .lg\:w-2\/3{
-    width: 66.666667%;
-  }
-
-  .lg\:w-3\/4{
-    width: 75%;
   }
 
   .lg\:flex-row{
@@ -1506,18 +1417,6 @@ header{
     width: 50%;
   }
 
-  .xl\:w-1\/3{
-    width: 33.333333%;
-  }
-
-  .xl\:w-2\/3{
-    width: 66.666667%;
-  }
-
-  .xl\:w-3\/4{
-    width: 75%;
-  }
-
   .xl\:max-w-\[90\%\]{
     max-width: 90%;
   }
@@ -1540,18 +1439,6 @@ header{
 
   .\32xl\:w-1\/2{
     width: 50%;
-  }
-
-  .\32xl\:w-1\/3{
-    width: 33.333333%;
-  }
-
-  .\32xl\:w-2\/3{
-    width: 66.666667%;
-  }
-
-  .\32xl\:w-3\/4{
-    width: 75%;
   }
 
   .\32xl\:flex-row{
