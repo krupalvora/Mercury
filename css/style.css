@@ -97,7 +97,7 @@
 .product-grid-rev-lg{
     display: grid;
     grid-template-columns:1.5fr auto;
-    grid-template-rows:  2fr 3fr;
+    grid-template-rows:  2fr 4fr;
     grid-template-areas: 
 
     'product-title product-image '
