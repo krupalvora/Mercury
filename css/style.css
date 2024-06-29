@@ -26,8 +26,15 @@
 
   
 .container-1{
-    @apply  px-5 lg:px-8  py-8 box-border;
-    @apply mt-20 lg:mt-20;
+    /* @apply  px-5 lg:px-8  py-8 box-border;
+    @apply mt-20 lg:mt-20; */
+    @apply px-4 py-8 mx-10 mt-20 box-border; 
+}
+
+.container-next{
+    /* @apply  px-5 lg:px-8  py-8 box-border;
+    @apply mt-20 lg:mt-20; */
+    @apply px-4 py-8 mx-4 lg:mx-10   box-border; 
 }
 
 .container-2{
@@ -37,8 +44,7 @@
 
 .home-grid-lg{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    
+    grid-template-columns: 1.5fr 1fr ;
     grid-template-areas: 
     'home-title home-image'
     'home-info home-image'
@@ -97,7 +103,7 @@
 .product-grid-rev-lg{
     display: grid;
     grid-template-columns:1.5fr auto;
-    grid-template-rows:  2fr 4fr;
+    grid-template-rows:  2fr 3fr;
     grid-template-areas: 
 
     'product-title product-image '

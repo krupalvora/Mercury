@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       boxShadow: {
         'golden': '10px 10px 20px rgba(167, 135, 62, 0.5)', // Customize the values as needed
+        'card': '0px 4px 25px 0px #00000014'
+
       },
       fontSize: {
         '64': '48px', // Add custom font size 64
@@ -26,7 +28,7 @@ module.exports = {
       },
     gridTemplateColumns: {
       // Define custom grid template columns for large screens
-    'home-lg': '1fr 1fr',
+    'home-lg': '1.5fr 1fr',
     'product-lg': '1fr auto',
     'product-rev-lg': 'auto 1fr'
 
@@ -84,7 +86,7 @@ plugins: [
           "home-info home-image"
           "home-btn home-image"
         `,
-        'grid-template-columns': '1fr 1fr',
+        'grid-template-columns': '1.5fr 1fr',
         'gap': '1rem',
       },
               '.product-grid': {
