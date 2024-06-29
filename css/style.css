@@ -30,7 +30,10 @@
     @apply mt-20 lg:mt-20; */
     @apply px-4 py-8 mx-10 mt-20 box-border; 
 }
-
+.container-product{
+    @apply  px-5 lg:px-8  py-8 box-border;
+    @apply mt-20 lg:mt-20;
+}
 .container-next{
     /* @apply  px-5 lg:px-8  py-8 box-border;
     @apply mt-20 lg:mt-20; */
