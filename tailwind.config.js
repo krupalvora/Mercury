@@ -9,7 +9,8 @@ module.exports = {
 
       },
       fontSize: {
-        '64': '48px', // Add custom font size 64
+        '48': '48px',
+        '24px': '24px',
       },
       fontWeight: {
         'regular': '800', // Add custom font weight regular
@@ -24,6 +25,8 @@ module.exports = {
       },
       fontFamily: {
         'display': ['Poppins', 'sans-serif'],
+          lato: ['Lato', 'sans-serif'],
+          'dm-serif': ['"DM Serif Display"', 'serif'],
         'body': ['Inter', 'sans-serif']
       },
     gridTemplateColumns: {

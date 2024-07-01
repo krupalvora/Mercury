@@ -962,6 +962,18 @@ video {
   text-align: justify;
 }
 
+.font-dm-serif{
+  font-family: "DM Serif Display", serif;
+}
+
+.font-lato{
+  font-family: Lato, sans-serif;
+}
+
+.text-24px{
+  font-size: 24px;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -970,6 +982,10 @@ video {
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-48{
+  font-size: 48px;
 }
 
 .text-4xl{
@@ -995,6 +1011,10 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[30px\]{
+  font-size: 30px;
 }
 
 .font-bold{
@@ -1414,6 +1434,10 @@ header{
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
+
+  .sm\:text-\[30px\]{
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 768px){
@@ -1562,9 +1586,13 @@ header{
     line-height: 1;
   }
 
-  .lg\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+  .lg\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .lg\:text-48{
+    font-size: 48px;
   }
 
   .lg\:text-lg{
