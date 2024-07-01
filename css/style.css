@@ -28,7 +28,7 @@
 .container-1{
     /* @apply  px-5 lg:px-8  py-8 box-border;
     @apply mt-20 lg:mt-20; */
-    @apply px-4 py-8 mx-5 lg:mx-10 mt-20 box-border;
+    @apply px-4 py-8 mx-5 lg:mx-20 mt-24 box-border;
 }
 .container-product{
     @apply  px-5 lg:px-8  py-8 box-border;
@@ -68,10 +68,13 @@
 }
 .home-grid-title{
     grid-area: home-title;
+
 }
 
 .home-grid-image{
     grid-area: home-image;
+    justify-self: end;
+    align-self: self-end;
 }
 .home-grid-btn{
     grid-area: home-btn;
@@ -150,7 +153,7 @@
 }
 
 .shadow-golden-circle::before {
-    content: '';
+    content: '';    
     position: absolute;
     bottom: -50px; /* Position the shadow outside the container from the bottom */
     left: -50px; /* Position the shadow outside the container from the left */
@@ -212,3 +215,6 @@ header{
 }
 
 
+.line-ht{
+    line-height: 5rem;
+}
