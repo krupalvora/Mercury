@@ -941,6 +941,18 @@ video {
   text-align: justify;
 }
 
+.font-lato{
+  font-family: Lato, sans-serif;
+}
+
+.font-dm-serif{
+  font-family: "DM Serif Display", serif;
+}
+
+.text-24px{
+  font-size: 24px;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -969,6 +981,10 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-48{
+  font-size: 48px;
 }
 
 .font-bold{
@@ -1484,6 +1500,10 @@ header{
     text-align: left;
   }
 
+  .lg\:text-24px{
+    font-size: 24px;
+  }
+
   .lg\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1494,9 +1514,9 @@ header{
     line-height: 1;
   }
 
-  .lg\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+  .lg\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .lg\:home-grid-lg{
