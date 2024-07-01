@@ -28,7 +28,7 @@
 .container-1{
     /* @apply  px-5 lg:px-8  py-8 box-border;
     @apply mt-20 lg:mt-20; */
-    @apply px-4 py-8 mx-5 lg:mx-20 mt-24 box-border;
+    @apply px-4 py-8 lg:mx-20 lg:mt-24 box-border;
 }
 .container-product{
     @apply  px-5 lg:px-8  py-8 box-border;

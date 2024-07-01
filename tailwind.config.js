@@ -19,8 +19,9 @@ module.exports = {
         'primary': '#B2867C',
         'fontColor-light-1': 'white',
         'fontColor-dark-1': 'black',
-        'fontColor-primary-1': '#0a1573',
-        'fontColor-primary-2':'#A7873E'
+        'fontColor-primary-1': '#394586',
+        'fontColor-primary-2':'#A7873E',
+        'fontColor-primary-3':'#2F3C7E'
 
       },
       fontFamily: {
